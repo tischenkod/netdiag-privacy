@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NetDiag - Privacy Policy</title>
+    <title>NetDiag+ - Privacy Policy</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #333; line-height: 1.6; }
         h1 { font-size: 24px; }
@@ -13,49 +13,59 @@
     </style>
 </head>
 <body>
-    <h1>NetDiag - Privacy Policy</h1>
-    <p class="date">Last updated: April 10, 2026</p>
+    <h1>NetDiag+ - Privacy Policy</h1>
+    <p class="date">Last updated: August 16, 2026</p>
 
     <h2>Overview</h2>
-    <p>NetDiag is a network diagnostics tool that performs Ping, Traceroute, NSLookup, Whois, Wi-Fi analysis, and LAN scanning. Your privacy is important to us.</p>
+    <p>NetDiag+ is a network diagnostics toolkit that performs Ping, Traceroute, MTR, Path MTU discovery, DNS lookups, Whois, Wi-Fi analysis, LAN scanning, and other network tests. Your privacy is important to us.</p>
 
     <h2>Data Collection</h2>
-    <p><strong>We do not collect, store, or transmit any personal data.</strong> All network diagnostics are performed locally on your device. Query results (ping responses, traceroute hops, DNS records, whois data) are displayed on-screen and are not saved or sent to any server.</p>
+    <p><strong>We do not collect your name, email address, or the contents of your diagnostic queries.</strong> All network diagnostics are performed locally on your device. Query results (ping responses, traceroute hops, DNS records, whois data) are displayed on-screen and stored only on your device — they are never sent to our servers. We do not operate any servers.</p>
+    <p>The app does collect limited, pseudonymous usage and advertising data through the third-party services described below (Google AdMob and Google Analytics for Firebase), subject to your consent where required.</p>
 
     <h2>Network Access</h2>
-    <p>The app requires network access to perform its core diagnostic functions (sending ICMP packets, DNS queries, TCP connections to whois servers, and local network scanning). This network activity is initiated only by your explicit action and serves no other purpose.</p>
+    <p>The app requires network access to perform its core diagnostic functions (sending ICMP packets, DNS queries, TCP/TLS connections, and local network scanning). This network activity is initiated only by your explicit action and serves no other purpose.</p>
 
     <h2>Advertising</h2>
-    <p>NetDiag displays advertisements provided by Google AdMob. Google may collect and use data to serve personalized ads, including:</p>
+    <p>NetDiag+ displays advertisements provided by Google AdMob. Google may collect and use data to serve ads, including:</p>
     <ul>
-        <li>Device identifiers (IDFA, when permitted via App Tracking Transparency)</li>
+        <li>Device identifiers (IDFA, only when permitted via App Tracking Transparency)</li>
         <li>IP address and approximate location</li>
         <li>App usage data and ad interaction data</li>
     </ul>
-    <p>You can opt out of personalized advertising by declining the App Tracking Transparency prompt or by adjusting your device settings under Settings &gt; Privacy &gt; Tracking.</p>
+    <p>Where consent is required (EEA, United Kingdom, Switzerland, and certain US states), the app shows a consent form on first launch. You can review or withdraw your consent at any time via <strong>Settings &rarr; &ldquo;Manage Ad Privacy&rdquo;</strong> in the app. You can also opt out of personalized advertising by declining the App Tracking Transparency prompt or under iOS Settings &gt; Privacy &gt; Tracking.</p>
     <p>For more information on Google's data practices, see <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
+    <h2>Analytics</h2>
+    <p>NetDiag+ uses Google Analytics for Firebase (provided by Google LLC) to understand how the app is used and to improve it. It collects aggregated, pseudonymous usage data such as app launches, screen views, session length, in-app events (including anonymized purchase events), approximate location (country/region derived from your IP address), device model, OS version, and an app-instance identifier. It does not collect your name, email address, or the contents of your diagnostic queries.</p>
+    <p>Analytics is enabled on the same basis as advertising: where consent is required, it runs only if you consent through the in-app prompt, and not at all if you decline. You can change your choice at any time via <strong>Settings &rarr; &ldquo;Manage Ad Privacy&rdquo;</strong>.</p>
+    <p>Google processes this data in accordance with its <a href="https://policies.google.com/privacy">Privacy Policy</a> and the <a href="https://firebase.google.com/support/privacy">Firebase privacy documentation</a>.</p>
+
     <h2>App Tracking Transparency</h2>
-    <p>On first launch, NetDiag will request your permission to track activity across other companies' apps and websites. This is used solely for ad personalization by Google AdMob. You may decline without any impact on the app's diagnostic functionality.</p>
+    <p>On first launch, NetDiag+ will request your permission to track activity across other companies' apps and websites. This is used solely for ad personalization by Google AdMob. You may decline without any impact on the app's diagnostic functionality.</p>
 
     <h2>Data Storage</h2>
-    <p>NetDiag stores the following data locally on your device only:</p>
+    <p>NetDiag+ stores the following data locally on your device only:</p>
     <ul>
         <li>Your premium purchase status (ad-free upgrade)</li>
-        <li>Recent whois query history (for convenience, stored on-device only)</li>
+        <li>Recent diagnostic history (results of ping, traceroute, speed test, and other tools — stored on-device only)</li>
+        <li>Your consent and app preferences</li>
     </ul>
     <p>No data is transmitted to our servers. We do not operate any servers.</p>
 
     <h2>Third-Party Services</h2>
     <p>The app connects to the following third-party services as part of its core functionality:</p>
     <ul>
-        <li><strong>Public DNS servers</strong> (e.g., 8.8.8.8) for NSLookup queries</li>
+        <li><strong>Public DNS servers</strong> (e.g., 8.8.8.8) for DNS queries, and public DNS-over-HTTPS / DNS-over-TLS resolvers for the Encrypted DNS tool</li>
         <li><strong>Public Whois servers</strong> (e.g., whois.iana.org, whois.ripe.net) for domain/IP registration lookups</li>
+        <li><strong>Cloudflare's network</strong> for the speed test</li>
+        <li><strong>Public STUN servers</strong> for the STUN/NAT tool</li>
         <li><strong>Google AdMob</strong> for displaying advertisements</li>
+        <li><strong>Google Analytics for Firebase</strong> for usage analytics</li>
     </ul>
 
     <h2>Children's Privacy</h2>
-    <p>NetDiag is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
+    <p>NetDiag+ is not directed at children under 13. We do not knowingly collect any personal information from children.</p>
 
     <h2>Changes to This Policy</h2>
     <p>We may update this policy from time to time. Changes will be reflected by updating the date at the top of this page.</p>
